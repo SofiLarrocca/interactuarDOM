@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- GOOGLE FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,100&display=swap" rel="stylesheet">
+    
+    <!-- ESTILOS CSS -->
+    <link rel="stylesheet" href="style.css">
+    <title>DOM</title>
+</head>
+
+<body>
+
+    <div class="contenedor-flex">
+        <h3>¿Qué producto deseas comprar?</h3>
+        <div>
+            <input id="input" type="text">
+            <button id='button'>Enviar</button>
+        </div>   
+        <div class="lista-productos">
+            <p>1) Café Martinez Brasil 250grs</p>
+            <p>2) Café Martinez Colombia 250grs</p>
+            <p>3) Café Martinez Decaf 250grs</p>
+            <p>4) Café Martinez Italiano 250grs</p>
+            <p>5) Café Martinez Selecto 250grs</p>
+            <p>6) Café Martinez Suave 250grs</p>
+        </div>
+    </div>
+
+
+    
+    <h2 id="titulo" class="none">Productos seleccionados:</h2>
+    <div id="productos"class="contenedor-productos">
+
+
+    </div>
+
+
+    <script src="producto.js"></script>
+    <script src="dom.js"></script>
+</body>
+</html>
